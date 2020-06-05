@@ -1,5 +1,6 @@
 # This is an alternative approach. Single line in git repo.
 override_git_prompt_colors() {
+  Time12a="\$(date +%Y-%m-%d_%H.%M.%S)"
   GIT_PROMPT_THEME_NAME="Single_line_Ubuntu"
 
   GIT_PROMPT_PREFIX="[ "
