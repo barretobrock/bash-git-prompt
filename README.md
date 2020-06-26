@@ -1,3 +1,16 @@
+# Fork of [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
+
+## Installation
+Add the following to ~/.bashrc:
+```bash
+if [[ -f "$HOME/extras/bash-git-prompt/gitprompt.sh" ]]; then
+    # Set config variables first
+    GIT_PROMPT_ONLY_IN_REPO=1
+    GIT_PROMPT_THEME=Single_line_Ubuntu
+    source $HOME/extras/bash-git-prompt/gitprompt.sh
+fi
+```
+
 # Informative git prompt for bash and fish
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/magicmonty/bash-git-prompt?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
